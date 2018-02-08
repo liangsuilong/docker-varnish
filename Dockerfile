@@ -19,8 +19,8 @@ RUN set -ex; \
 	'; \
 	apt-get update; \
 	apt-get install -y --no-install-recommends $fetchDeps; \
-	curl -L https://packagecloud.io/varnishcache/varnish41/gpgkey | apt-key add -; \
-        echo "deb https://packagecloud.io/varnishcache/varnish41/ubuntu/ xenial main" >> /etc/apt/sources.list.d/varnish.list; \
+	curl -L https://packagecloud.io/varnishcache/varnish50/gpgkey | apt-key add -; \
+        echo "deb https://packagecloud.io/varnishcache/varnish50/ubuntu/ xenial main" >> /etc/apt/sources.list.d/varnish.list; \
 	apt-get update; \
 	apt-get -y install \
 		varnish=${VARNISH_VERSION}-${VARNISH_VERSION_MINOR} \
