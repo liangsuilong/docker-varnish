@@ -2,8 +2,8 @@ FROM ubuntu:16.04
 
 MAINTAINER Suilong Liang <suilong.liang@worktogether.io>
 
-ENV VARNISH_MAJOR 4.1
-ENV VARNISH_VERSION 4.1.9
+ENV VARNISH_MAJOR 5.1
+ENV VARNISH_VERSION 4.1.3
 ENV VARNISH_VERSION_MINOR 1~xenial
 
 RUN groupadd -r varnish && useradd -r -g varnish varnish
