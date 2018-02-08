@@ -4,7 +4,7 @@ MAINTAINER Suilong Liang <suilong.liang@worktogether.io>
 
 ENV VARNISH_MAJOR 5.0
 ENV VARNISH_VERSION 5.0.0
-ENV VARNISH_VERSION_MINOR 1~xenial
+ENV VARNISH_VERSION_MINOR 1
 
 RUN groupadd -r varnish && useradd -r -g varnish varnish
 
